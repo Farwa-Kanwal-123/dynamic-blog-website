@@ -125,7 +125,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-16 sm:py-24">
         <div className="text-center mb-12">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 text-blue-800">Welcome to Farwa's Travel Adventures</h1>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 text-blue-800">Welcome to Farwa&339;s Travel Adventures</h1>
           <p className="text-xl sm:text-2xl text-gray-600 mb-8">Explore the world through my eyes and experiences</p>
           <Link href="/blog">
             <Button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105">
@@ -203,7 +203,7 @@ export default function Home() {
                 <div key={index} className="px-4">
                   <Card className="bg-white h-64 flex flex-col justify-center">
                     <CardContent>
-                      <p className="italic text-gray-600 text-lg mb-4">"{testimonial.quote}"</p>
+                      <p className="italic text-gray-600 text-lg mb-4">{testimonial.quote}</p>
                       <p className="text-right font-semibold text-blue-800">- {testimonial.name}</p>
                     </CardContent>
                   </Card>
