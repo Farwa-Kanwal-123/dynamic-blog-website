@@ -204,7 +204,7 @@ export default function Home() {
                   <Card className="bg-white h-64 flex flex-col justify-center">
                     <CardContent>
                       <p className="italic text-gray-600 text-lg mb-4">{testimonial.quote}</p>
-                      <p className="text-right font-semibold text-blue-800">- {testimonial.name}</p>
+                      <p className="text-right font-semibold text-blue-800">{testimonial.name}</p>
                     </CardContent>
                   </Card>
                 </div>
