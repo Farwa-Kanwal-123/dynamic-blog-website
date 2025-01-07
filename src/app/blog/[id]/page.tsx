@@ -268,7 +268,7 @@ export default function BlogPost({ params }: { params: { id: string } }) {
           <p key={index} className="mb-4 text-gray-800">{paragraph}</p>
         ))}
         <div className='flex justify-center my-10'>
-        <button><Link href="/blog" className='border-2 border-blue-800 text-blue-800 hover:bg-blue-800 hover:text-white transition-all duration-2s ease-in   font-bold  px-10 py-2 rounded-lg shadow-lg hover:shadow-xl'>View More</Link></button>
+        <button><Link href="/blog" className='border-2 border-blue-800 text-blue-800 hover:bg-blue-800 hover:text-white transition-all duration-300 ease-in   font-bold  px-10 py-2 rounded-lg shadow-lg hover:shadow-xl'>View More</Link></button>
       </div>
       </div>
       <CommentSection/>
